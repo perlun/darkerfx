@@ -21,7 +21,7 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "darkFX - A dark theme for DocFX! | darkFX",
-    "keywords": "darkFX - A dark theme for DocFX! A dark template for documentation generated with DocFX . This is an override of the default template so you need to enable both in the docfx.json . Install Download the source or the zipped file from the releases . Create a templates folder in the root of your DocFX directory. Copy the darkfx folder to the templates folder. Update the docfx.json configuration to include the material template: json { \"template\": [ \"default\", \"templates/darkfx\" ], } Acknowledgement Many thanks to Oscar Vásquez from which I borrowed the example pages and repository structure of his Material Theme for DocFX ."
+    "title": "darkerfx - A dark theme for DocFX! | darkFX",
+    "keywords": "darkerfx - A dark theme for DocFX! A dark template for documentation generated with DocFX . The theme is created as an override of the default template, so both default and darkerfx needs to be enabled in docfx.json Live Demo You can view a demo DocFX project with this template HERE . Install Download the source or the zipped file from the releases . Create a templates folder in the root of your DocFX directory. Copy the darkerfx folder to the templates folder. Update the docfx.json configuration to include the darkerfx template: json { \"template\": [ \"default\", \"templates/darkerfx\" ], } Acknowledgement The theme is based on the great darkFX theme by Steffen Wilke. Many thanks to you! darkFX in turn has the following acknowledgement: Many thanks to Oscar Vásquez from which I borrowed the example pages and repository structure of his Material Theme for DocFX ."
   }
 }
