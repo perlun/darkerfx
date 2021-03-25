@@ -24,17 +24,17 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "../darkfx"
+      "../darkerfx"
     ],
     "postProcessors": [
       "ExtractSearchIndex"
     ],
     "globalMetadata": {
-      "_appFooter": "<span>Copyright © Steffen Wilke<br>Generated with <strong>DocFX</strong></span>",
+      "_appFooter": "<span>Copyright © Steffen Wilke & Per Lundberg<br>Generated with <strong>DocFX</strong></span>",
       "_appTitle": "darkFX",
       "_enableSearch": "true",
       "_gitContribute": {
-        "repo": "https://github.com/steffen-wilke/docfx-dark"
+        "repo": "https://github.com/perlun/darkerfx"
       },
       "_gitUrlPattern": "github"
     },

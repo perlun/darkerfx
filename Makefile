@@ -6,6 +6,9 @@ all: docs
 docs: docfx/docfx.exe
 	./docfx/docfx.exe docs/docfx.json
 
+docs-screenshot:
+	wkhtmltoimage --crop-h 768 http://localhost:8080/articles/intro.html docs/images/darkfx-screenshots.png
+
 # This depends on live-server being available. Install like this (presumed
 # Node.js already being available):
 #
