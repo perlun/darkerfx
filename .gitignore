@@ -1,12 +1,10 @@
-###############
-#    folder   #
-###############
-/**/DROP/
-/**/TEMP/
-/**/packages/
-/**/bin/
-/**/obj/
-_site
+obj/
+_site/
+.sass-cache
 docfx/*.dll
 docfx/docfx.exe
 docfx/docfx.exe.config
+
+# CSS file is built from SASS source (see Makefile)
+darkerfx/styles/main.css
+darkerfx/styles/main.css.map

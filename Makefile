@@ -3,8 +3,11 @@
 
 all: docs
 
-docs: docfx/docfx.exe
+docs: docfx/docfx.exe darkerfx/styles/main.css
 	./docfx/docfx.exe docs/docfx.json
+
+darkerfx/styles/main.css: darkerfx/styles/main.scss
+	sass $< $(@)
 
 docs-screenshot:
 	wkhtmltoimage --crop-h 768 http://localhost:8080/articles/intro.html docs/images/darkfx-screenshots.png

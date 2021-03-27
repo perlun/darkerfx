@@ -2,6 +2,9 @@
 
 ## Si mandate videt
 
+> [!TIP]
+> This is a note which needs your attention, but it's not super important.
+
 Lorem markdownum perspice caelestia orsa tamen rorant titulum Amycus parens
 deplangitur [fuit est](http://ultorem-hunc.net/exstantequos); duxit cura est.
 Idem [praepetibus sibi](http://est.io/) ligatis umidus Minervae si auras
@@ -25,7 +28,7 @@ fidelius, mihi esse est nominat quod, Anaxareten. Venit Confremuere, inplet,
 tibi inspiciunt iamque maesta his suis.
 
 > [!CAUTION]
-> This is a warning containing some **very** important message.
+> This is a warning containing some important message.
 
     serverBitStatus(jsp_data - memory, read(5 + desktopCharacterProgram,
             address_drive));
