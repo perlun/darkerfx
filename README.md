@@ -1,4 +1,4 @@
-# darkerfx - A dark theme for DocFX!
+# darkerfx - Another dark theme for DocFX
 
 A dark template for documentation generated with [DocFX](https://dotnet.github.io/docfx/).
 
@@ -6,7 +6,7 @@ The theme is created as an override of the default template, so both `default` a
 
 Here is an example of what it looks like:
 
-![darkFX - Screenshots](./docs/images/darkfx-screenshots.png)
+![darkerfx - Screenshots](./docs/images/darkfx-screenshots.png)
 
 ## Live Demo
 You can view a demo DocFX project with this template [HERE](https://perlun.github.io/darkerfx/).
@@ -27,7 +27,7 @@ You can view a demo DocFX project with this template [HERE](https://perlun.githu
     ```
 
 ## Acknowledgements
-The theme is based on the great [darkFX](https://github.com/steffen-wilke/darkfx) theme by Steffen Wilke. Many thanks to you!
+The theme is based on the great [darkfx](https://github.com/steffen-wilke/darkfx) theme by Steffen Wilke. Many thanks to you!
 
 The main changes in this theme compared to darkfx are as follows:
 
