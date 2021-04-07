@@ -1,5 +1,5 @@
 .PHONY: \
-	all docs
+	all docs release
 
 all: docs
 
@@ -22,3 +22,6 @@ docs-serve:
 docfx/docfx.exe:
 	wget -qO- https://github.com/dotnet/docfx/releases/download/v2.51/docfx.zip | busybox unzip - -d docfx
 	chmod +x docfx/docfx.exe
+
+release: all
+	zip -9r darkerfx-`git describe --tags --abbrev=0`.zip darkerfx/
