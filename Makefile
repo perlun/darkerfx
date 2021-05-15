@@ -20,7 +20,7 @@ docs-serve:
 	live-server docs/_site
 
 docfx/docfx.exe:
-	wget -qO- https://github.com/dotnet/docfx/releases/download/v2.51/docfx.zip | busybox unzip - -d docfx
+	wget -qO- https://github.com/dotnet/docfx/releases/download/v2.57.2/docfx.zip | busybox unzip - -d docfx
 	chmod +x docfx/docfx.exe
 
 release: all
